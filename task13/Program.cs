@@ -7,7 +7,7 @@ int number = Convert.ToInt32(Console.ReadLine());
 Console.Write($"Введите число, на которое будем проверять кратность числа {number}: ");
 int kratn = Convert.ToInt32(Console.ReadLine());
 
-if (number % kratn == 0)  // Проверяем "кратность"
+if (number % kratn == 0)  // Проверяем "кратность" 
 {
     Console.WriteLine($"Число {number} кратно числу {kratn}");
 }
